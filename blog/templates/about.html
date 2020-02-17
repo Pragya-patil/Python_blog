@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+{% block content%}
+
+<div class="card mb-3">
+    <h3 class="card-header">About Me</h3>
+    <div class="card-body">
+      <h5 class="card-title">Mr. Tango Django</h5>
+      <h6 class="card-subtitle text-muted">Python Django Consultant and Expert</h6>
+    </div>
+    <img style="height: 200px; width: 100%; display: block;" src="{% static 'images/profile.jpg'%}" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">I am a Python developer having 10 years of experience in software development. I have expertise in web development using Django.</p>
+    </div>
+  </div>
+  
+{% endblock%}
